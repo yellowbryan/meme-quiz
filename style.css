@@ -1,0 +1,104 @@
+
+[class^="hide"] {
+  display: none;
+  border: 1px solid;
+}
+
+.show {
+  display: block;
+}
+
+
+
+body{
+	background-color: #eee;
+}
+
+
+
+#quizHolder{
+background:-webkit-linear-gradient(left ,#FFEB3B 50% , black 50%);
+text-align: center;
+width:50%;
+padding:1%;
+position:absolute;
+left:25%;
+right:25%;
+top:10%;
+border-radius:15%;
+}
+
+
+
+.memeimg:hover{
+	background-color:tomato;
+}	
+
+
+.memeimg{
+	height:100%;
+	width:27%;
+	padding:0px;
+	margin:2%;
+	border-top:8px solid white;
+
+	border-radius:1%;
+	}
+
+
+h1{
+
+	font-size:35px;
+	color:#00B8D4;
+	width:100%;
+	border-radius:40%;
+	text-align:center;
+	font-family:Lucida Console;
+}
+
+h2{
+	background-color:#FFFAF0;
+	font-size:35px;
+	color:	#008B8B;
+	padding:1%	;
+	font-family:arial;
+	 box-shadow: 4px 10px;
+	
+}
+
+h2:hover{
+	background-color:#673AB7;
+}
+
+
+#btn,#btn2, #btn3 , #btn4, #btn5 ,#btn6, #btn7 , #btn8,  #btn9, #btn10 {
+	
+	width:15%;
+	 background-color: white; /* Green */
+    border: none;
+    color:#008B8B ;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    padding: 16px;
+    font-family:arial;
+    border-radius: 2px;
+    border:2px solid #008B8B;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+ #btn:hover{background-color: #00BCD4;  color: white;}
+  #btn2:hover{background-color: #00BCD4;  color: white;}
+   #btn3:hover{background-color: #00BCD4;  color: white;}
+    #btn4:hover{background-color: #00BCD4;  color: white;}
+     #btn5:hover{background-color: #00BCD4;  color: white;}
+      #btn6:hover{background-color: #00BCD4;  color: white;}
+       #btn7:hover{background-color: #00BCD4;  color: white;}
+        #btn8:hover{background-color: #00BCD4;  color: white;}
+
+
